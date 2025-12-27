@@ -14,6 +14,11 @@ SQL Scripts for Cleaning and Analyzing Global Layoff Data
    - Aggregates layoffs by company, year, and month  
    - Identifies top companies with layoffs  
    - Calculates rolling totals and rankings
+  
+## Dataset
+
+The analysis uses the **Layoffs Dataset** – Tech layoffs dataset from COVID 2019 to present from Kaggle:  
+https://www.kaggle.com/datasets/swaptr/layoffs-2022
 
 ## Dataset Schema (`layoffs_staging_2`)
 
@@ -37,4 +42,7 @@ SQL Scripts for Cleaning and Analyzing Global Layoff Data
 - Aggregation, grouping, and ranking queries  
 - Window functions (`ROW_NUMBER`, `DENSE_RANK`)  
 - Date extraction and formatting  
-- Handling real-world dataset inconsistencies  
+- Handling real-world dataset inconsistencies
+
+
+This analysis was guided by the following reference tutorial: https://youtu.be/OT1RErkfLNQ
