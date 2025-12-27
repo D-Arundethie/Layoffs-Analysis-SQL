@@ -15,8 +15,6 @@ SQL Scripts for Cleaning and Analyzing Global Layoff Data
    - Identifies top companies with layoffs  
    - Calculates rolling totals and rankings
 
----
-
 ## Dataset Schema (`layoffs_staging_2`)
 
 | Column             | Data Type | Description |
