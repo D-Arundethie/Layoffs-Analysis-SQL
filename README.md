@@ -15,15 +15,17 @@ SQL Scripts for Cleaning and Analyzing Global Layoff Data
    - Identifies top companies with layoffs  
    - Calculates rolling totals and rankings
 
+---
+
 ## Dataset Schema (`layoffs_staging_2`)
 
 | Column             | Data Type | Description |
 |-------------------|-----------|------------|
 | company           | TEXT      | Company name |
 | location          | TEXT      | Office or city location |
-| total_laid_off    | INT       | Number of employees laid off |
+| total_laid_off    | TEXT      | Number of employees laid off |
 | date              | DATE      | Layoff date |
-| percentage_laid_off | DECIMAL | Percentage of workforce laid off |
+| percentage_laid_off | TEXT    | Percentage of workforce laid off |
 | industry          | TEXT      | Company industry |
 | source            | TEXT      | News or source of information |
 | stage             | TEXT      | Company stage (Startup, Series A, etc.) |
